@@ -1,0 +1,25 @@
+﻿Build started 6/13/2016 4:28:53 PM.
+     1>Project "D:\1_Fall_2015_MATERIAL\PROJECT\IMAGE_PROCESSING\FinalPackageVinay\CODE\BOOK_BUG\BOOK_BUG.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /IC:\opencv\build\x86\vc12\..\..\include /IC:\tesseract\include /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\tesseract\include\leptonica\environ.h(277): warning C4005: 'snprintf': macro redefinition
+         c:\tesseract\include\tesseract\platform.h(33): note: see previous definition of 'snprintf'
+     1>c:\tesseract\include\leptonica\pix.h(169): warning C4305: 'initializing': truncation from 'double' to 'l_float32'
+     1>c:\tesseract\include\leptonica\pix.h(171): warning C4305: 'initializing': truncation from 'double' to 'l_float32'
+     1>main.cpp(192): warning C4018: '<': signed/unsigned mismatch
+     1>main.cpp(257): warning C4018: '<': signed/unsigned mismatch
+     1>main.cpp(265): warning C4018: '<': signed/unsigned mismatch
+     1>main.cpp(268): warning C4018: '<': signed/unsigned mismatch
+     1>main.cpp(287): warning C4018: '<': signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\1_Fall_2015_MATERIAL\PROJECT\IMAGE_PROCESSING\FinalPackageVinay\CODE\Release\BOOK_BUG.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\opencv\build\x86\vc12\lib /LIBPATH:C:\tesseract\lib opencv_ts300.lib opencv_world300.lib liblept168.lib libtesseract302.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\1_Fall_2015_MATERIAL\PROJECT\IMAGE_PROCESSING\FinalPackageVinay\CODE\Release\BOOK_BUG.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\1_Fall_2015_MATERIAL\PROJECT\IMAGE_PROCESSING\FinalPackageVinay\CODE\Release\BOOK_BUG.lib" /MACHINE:X86 /SAFESEH Release\main.obj
+         Generating code
+         All 397 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+         Finished generating code
+         BOOK_BUG.vcxproj -> D:\1_Fall_2015_MATERIAL\PROJECT\IMAGE_PROCESSING\FinalPackageVinay\CODE\Release\BOOK_BUG.exe
+     1>Done Building Project "D:\1_Fall_2015_MATERIAL\PROJECT\IMAGE_PROCESSING\FinalPackageVinay\CODE\BOOK_BUG\BOOK_BUG.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.43
